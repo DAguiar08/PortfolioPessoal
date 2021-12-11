@@ -26,6 +26,7 @@ body {
 
 h1 {
     font-size: 100px;
+    display: flex;
     text-transform: uppercase;
     letter-spacing: 4px;
     position: absolute;
@@ -34,6 +35,7 @@ h1 {
 }
 
 h2{
+    display: flex;
     font-size: 40px;
     letter-spacing: 4px;
     position: absolute;
@@ -42,6 +44,7 @@ h2{
     left: 150px;
 }
 #descrição {
+    display: flex;
     font-size: 28px;
     background-color: rgba(00, 185, 185, 0.2);
     position: absolute;
