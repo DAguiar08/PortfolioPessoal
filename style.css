@@ -3,6 +3,8 @@
 body {
     margin: 0;
     padding: 0;
+    widht: 100%;
+    heigth: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #DCDCDC;
     overflow-x: hidden;
