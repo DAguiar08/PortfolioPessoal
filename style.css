@@ -1,0 +1,76 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #DCDCDC;
+    overflow-x: hidden;
+}
+
+/*MAIN PAGE*/
+
+.Cabeçalho-Cont {
+    height: 100vh;
+    background-color: #222831;
+    background-image: url('Eu.png');
+    background-repeat: no-repeat;
+    background-position-x: 850px;
+    background-position-y: 3px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 130px;
+}
+
+h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 200px;
+    padding-left: 2px;
+    left: 150px;
+}
+#descrição {
+    font-size: 28px;
+    background-color: rgba(00, 185, 185, 0.2);
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+    top: 40%;
+    left: 150px;
+    
+}
+
+.botões{
+    display: flex;
+    position: absolute;
+    bottom: 110px;
+    left: 150px;
+}
+
+.botões a {
+    text-decoration: none;
+    color: #DCDCDC;
+    padding: 15px 40px;
+    font-size: 30px;
+    display: flex;
+    transition: .5s ease-in-out;
+    border-radius: 20px;
+    border: #000000;
+}
+
+a:hover {
+    background-color: #00ADB5;
+}
+
